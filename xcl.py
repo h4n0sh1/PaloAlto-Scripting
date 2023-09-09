@@ -66,9 +66,7 @@ def csv_diff(path1,path2):
 
 
 if __name__ == "__main__":
-	path1 = 'C:\\Users\\OthmaneELHANCHI\\Downloads\\wifi.csv'
-	path2 = 'C:\\Users\\OthmaneELHANCHI\\Downloads\\vlan.csv'
-	path3 = 'C:\\Users\\OthmaneELHANCHI\\Downloads\\sup.csv'
+	#import env here
 	csv_diff(path1,path2)
 	print('')
 	csv_diff(path1,path3)
