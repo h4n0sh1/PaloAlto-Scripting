@@ -1,7 +1,5 @@
-import requests
-import xml.etree.ElementTree as ET
-import csv
-import threading
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """ 
     This script queries a list of Palo Alto firewall IPs from the file "pa_est.csv", for any system log containing the key word "extended".
     It then returns the list of Palo Alto firewalls with their matching log entry in the file "query.csv"
@@ -10,6 +8,12 @@ import threading
     Created: 04/04/2024
     License: GPL
 """
+
+import requests
+import xml.etree.ElementTree as ET
+import csv
+import threading
+
 
 body = { 
 		'user': 'xxxx',
