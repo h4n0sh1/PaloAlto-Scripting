@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """ 
-    This script reboots a list of Palo Alto firewalls (tested on PA-220) contained in the file "pa_est.csv"
+    This script reboots a list of Palo Alto firewalls contained in the file "pa_est.csv" (tested on PA-220)
     The .csv is contains a list of IP as in : 
     172.23.0.57
     172.85.65.254
